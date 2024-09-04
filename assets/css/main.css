@@ -159,7 +159,7 @@ input, textarea, select, button {
   color: #fff;
 }
 .banner .banner-btn {
-  width: 250px;
+  width: 400px;
   height: 55px;
   background: #2980b9;
   color: #fff;
@@ -168,6 +168,7 @@ input, textarea, select, button {
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 20px;
+  border-radius: 20px;
 }
 
 @media (max-width: 1300px) {
@@ -196,7 +197,7 @@ input, textarea, select, button {
     line-height: 24px;
   }
   .banner .banner-btn {
-    width: 200px;
+    width: 340px;
     height: 48px;
     font-size: 16px;
     line-height: 20px;
@@ -213,36 +214,9 @@ input, textarea, select, button {
     width: 100%;
     height: 75vh;
   }
-  .banner .bear {
-    width: 200px;
-    position: absolute;
-    top: 50%;
-    left: 52%;
-    transform: translate(-50%, -50%);
-  }
-  .banner .banner-title {
-    font-size: 36px;
-    line-height: 40px;
-  }
   .banner .banner-logo {
     width: 100%;
     padding: 0 20px;
-  }
-  .banner .banner-logo .logo:first-child {
-    width: 250px;
-  }
-  .banner .banner-logo .logo:last-child {
-    height: 250px;
-  }
-  .banner .banner-text {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  .banner .banner-btn {
-    width: 200px;
-    height: 48px;
-    font-size: 16px;
-    line-height: 20px;
   }
 }
 @media (max-width: 576px) {
